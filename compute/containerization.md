@@ -101,7 +101,7 @@ graph TB
             vHub --- AFW
         end
 
-        subgraph Compute Fabric (Microsoft-managed)
+        subgraph Compute Fabric Microsoft-managed
             AKS[(Azure Kubernetes Service)]
             ACA[(Azure Container Apps)]
             ASC[(App Service for Containers)]
@@ -117,7 +117,7 @@ graph TB
     end
 
     subgraph Platform Capabilities
-        HPA[Auto-scaling (HPA/KEDA)]
+        HPA[Auto-scaling HPA/KEDA]
         RBAC[Kubernetes RBAC / Entra ID]
         POL[Azure Policy / Defender for Cloud]
         MON[Azure Monitor / Container Insights]
