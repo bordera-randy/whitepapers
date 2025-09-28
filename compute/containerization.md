@@ -193,7 +193,7 @@ flowchart TB
         APP_P[Application Code / Config]:::agency
         DATA_P[Data Controls / Key Vault]:::agency
         LOG_P[Platform & Workload Telemetry]:::shared
-        CMP_P[Compliance Evidence (reduced scope)]:::shared
+        CMP_P[Compliance Evidence reduced scope]:::shared
     end
 
     PDC --> PHW --> HYP --> IaaS
