@@ -90,21 +90,21 @@ Multiple secured hubs can be deployed in required regions (including Azure Gover
 ```mermaid
 graph TB
     subgraph EAST[Region: East US]
-        H1[Secured Hub (East)]
+        H1[Secured Hub East]
         H1 --> F1[Azure Firewall]
         H1 --> E1[VNet East-1]
         H1 --> E2[VNet East-2]
     end
 
     subgraph WEST[Region: West US]
-        H2[Secured Hub (West)]
+        H2[Secured Hub West]
         H2 --> F2[Azure Firewall]
         H2 --> W1[VNet West-1]
         H2 --> W2[VNet West-2]
     end
 
     subgraph GOV[US Gov Virginia]
-        H3[Secured Hub (US Gov VA)]
+        H3[Secured Hub US Gov VA]
         H3 --> F3[Azure Firewall]
         H3 --> G1[VNet Gov-1]
         H3 --> G2[VNet Gov-2]
