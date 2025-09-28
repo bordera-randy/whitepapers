@@ -42,7 +42,7 @@ graph TB
             VNet -.-> FW
         end
 
-        subgraph Compute & OS (You manage)
+        subgraph Compute & OS You manage
             VM1[(VM #1)]
             VM2[(VM #2)]
             VMSS[(VM Scale Set - optional)]
