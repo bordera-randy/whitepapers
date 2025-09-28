@@ -4,12 +4,20 @@ A collection of technical whitepapers focusing on Azure services, architectures,
 
 ## 📋 Table of Contents
 
-- [About](#about)
-- [Repository Structure](#repository-structure)
-- [Available Whitepapers](#available-whitepapers)
-- [Contributing](#contributing)
-- [Whitepaper Template](#whitepaper-template)
-- [License](#license)
+- [Azure Whitepapers Repository](#azure-whitepapers-repository)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [About](#about)
+  - [Repository Structure](#repository-structure)
+  - [Available Whitepapers](#available-whitepapers)
+    - [Compute Services](#compute-services)
+    - [Storage Solutions](#storage-solutions)
+    - [Networking](#networking)
+    - [Security \& Compliance](#security--compliance)
+    - [DevOps \& Monitoring](#devops--monitoring)
+    - [Architecture \& Patterns](#architecture--patterns)
+  - [Contributing](#contributing)
+  - [Whitepaper Template](#whitepaper-template)
+  - [License](#license)
 
 ## About
 
@@ -59,7 +67,7 @@ whitepapers/
 - Coming soon...
 
 ### Networking
-- Coming soon...
+- [Azure Virtual WAN with Secured Virtual Hub for FedRAMP High](networking/vwan-fedramp-high.md)
 
 ### Security & Compliance
 - Coming soon...
