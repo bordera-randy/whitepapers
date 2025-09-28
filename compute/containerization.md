@@ -160,7 +160,7 @@ flowchart TB
     classDef agency fill:#ffe5cf,stroke:#b85c00,stroke-width:1px,color:#5a2c00;
     classDef shared fill:#eef0f3,stroke:#6b7280,stroke-width:1px,color:#111827;
 
-    title[Shared Responsibility Model: VM IaaS vs Containerized PaaS (FedRAMP High)]
+    title[Shared Responsibility Model: VM IaaS vs Containerized PaaS FedRAMP High]
 
     subgraph Legend[Legend]
         MLegend[Blue = Microsoft]:::ms
@@ -172,7 +172,7 @@ flowchart TB
     PHW[Physical Hardware / Network]:::ms
     HYP[Host OS / Hypervisor]:::ms
 
-    subgraph IaaS[VM-based (IaaS)]
+    subgraph IaaS[VM-based IaaS]
         GOS_I[Guest OS Patching/Baseline]:::agency
         MW_I[Middleware / Runtimes]:::agency
         APP_I[Application Code & Images]:::agency
@@ -180,10 +180,10 @@ flowchart TB
         NET_I[Virtual Network / NSG / UDR]:::agency
         SEC_I[Workload Security Controls]:::agency
         LOG_I[Audit Logging & SIEM Integration]:::shared
-        CMP_I[Compliance Evidence (FedRAMP High)]:::shared
+        CMP_I[Compliance Evidence FedRAMP High]:::shared
     end
 
-    subgraph PaaS[Containerized PaaS (AKS/ACA/ASC)]
+    subgraph PaaS[Containerized PaaS AKS/ACA/ASC]
         HOST_P[Container Host OS & Patching]:::ms
         CRT_P[Container Runtime & Orchestrator]:::ms
         PLT_P[Platform SLA/HA/Scaling]:::ms
