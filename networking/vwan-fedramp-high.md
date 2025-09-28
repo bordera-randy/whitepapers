@@ -64,7 +64,7 @@ Virtual WAN delivers a Microsoft-managed global transit fabric. The Secured Virt
 ```mermaid
 graph LR
     SITE1[Branch / ER / VPN] --> HUB[Secured Virtual Hub]
-    USERS[Remote Users (P2S)] --> HUB
+    USERS[Remote Users] --> HUB
     DC[On-Premises DC] --> HUB
 
     HUB --> ROUTE[Managed Routing]
