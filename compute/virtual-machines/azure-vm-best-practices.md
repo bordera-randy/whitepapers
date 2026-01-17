@@ -1,7 +1,7 @@
 # Azure Virtual Machine Best Practices and Optimization
 
-**Author:** Azure Community  
-**Date:** January 2025  
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
 **Version:** 1.0  
 **Azure Services:** Azure Virtual Machines, Azure Disk Storage, Azure Monitor, Virtual Machine Scale Sets
 
@@ -25,6 +25,7 @@ The document outlines proven strategies for VM sizing, disk configuration, netwo
 - [Monitoring and Maintenance](#monitoring-and-maintenance)
 - [Conclusion](#conclusion)
 - [References](#references)
+- [Appendices](#appendices)
 
 ## Introduction
 
@@ -255,6 +256,12 @@ az monitor metrics list \
 - Implement backup strategies with Azure Backup
 - Configure audit logging for compliance requirements
 
+### Compliance
+- Ensure VMs meet industry-specific compliance requirements (HIPAA, PCI-DSS, etc.)
+- Implement Azure Policy for governance and compliance enforcement
+- Regular compliance audits using Azure Security Center
+- Maintain documentation of security controls and configurations
+
 ### Security Configuration
 
 ```bash
@@ -312,7 +319,7 @@ az vm encryption enable \
 - Network utilization
 - Available disk space
 
-### Alerting Configuration
+### Alerting
 
 ```bash
 # Create CPU utilization alert
@@ -330,7 +337,7 @@ az monitor metrics alert create \
 - Quarterly: Review VM sizing and configuration
 - Annually: Evaluate Reserved Instance renewals
 
-### Troubleshooting Common Issues
+### Troubleshooting
 
 #### High CPU Utilization
 1. Check running processes and services
@@ -341,6 +348,11 @@ az monitor metrics alert create \
 1. Monitor disk IOPS and throughput
 2. Consider Premium SSD upgrade
 3. Evaluate application I/O patterns
+
+#### Network Connectivity Issues
+1. Verify network security group rules
+2. Check virtual network configuration
+3. Test connectivity with Network Watcher
 
 ## Conclusion
 
@@ -366,9 +378,74 @@ Implementing Azure VM best practices requires a systematic approach to sizing, s
 4. [Azure Monitor Documentation](https://docs.microsoft.com/azure/azure-monitor/)
 5. [Azure Security Center](https://docs.microsoft.com/azure/security-center/)
 
+## Appendices
+
+### Appendix A: VM Sizing Reference
+
+**B-Series (Burstable):** Best for workloads with variable CPU usage
+- B1s, B1ms, B2s, B2ms, B4ms, B8ms
+- Use case: Development/test, low-traffic web servers
+
+**D-Series (General Purpose):** Balanced CPU-to-memory ratio
+- Standard_D2s_v3, Standard_D4s_v3, Standard_D8s_v3
+- Use case: Enterprise applications, web servers, databases
+
+**E-Series (Memory Optimized):** High memory-to-CPU ratio
+- Standard_E2s_v3, Standard_E4s_v3, Standard_E8s_v3
+- Use case: In-memory databases, large caches
+
+**F-Series (Compute Optimized):** High CPU-to-memory ratio
+- Standard_F2s_v2, Standard_F4s_v2, Standard_F8s_v2
+- Use case: Batch processing, analytics, gaming servers
+
+### Appendix B: Azure CLI Quick Reference
+
+```bash
+# List all VMs in subscription
+az vm list --output table
+
+# Get VM details
+az vm show --resource-group myResourceGroup --name myVM
+
+# Start/Stop VM
+az vm start --resource-group myResourceGroup --name myVM
+az vm stop --resource-group myResourceGroup --name myVM
+
+# Resize VM
+az vm resize --resource-group myResourceGroup --name myVM --size Standard_D4s_v3
+
+# List available VM sizes in location
+az vm list-sizes --location eastus --output table
+
+# Get VM utilization metrics
+az monitor metrics list --resource myVM --metric "Percentage CPU" \
+  --start-time 2025-01-01T00:00:00Z --interval PT1H
+```
+
+### Appendix C: PowerShell Quick Reference
+
+```powershell
+# List all VMs
+Get-AzVM
+
+# Get VM details
+Get-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM"
+
+# Start/Stop VM
+Start-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM"
+Stop-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM"
+
+# Resize VM
+$vm = Get-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM"
+$vm.HardwareProfile.VmSize = "Standard_D4s_v3"
+Update-AzVM -ResourceGroupName "myResourceGroup" -VM $vm
+
+# Get available VM sizes
+Get-AzVMSize -Location "eastus"
+```
+
 ---
 
-**Disclaimer:** This whitepaper is provided for informational purposes only. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+**Disclaimer:** This whitepaper is provided for informational purposes only. 
 
-**Last Updated:** January 2025  
-**Review Schedule:** July 2025
+**Last Updated:** January 2026 
