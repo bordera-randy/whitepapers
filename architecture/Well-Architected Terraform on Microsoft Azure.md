@@ -48,7 +48,7 @@ Infrastructure as Code (IaC) has transformed how organizations deploy and manage
 
 The Azure Well-Architected Framework provides five pillars for cloud excellence:
 
-```mermaid 
+```mermaid  
 graph TD
     A[Well-Architected Framework] --> B[Reliability]
     A --> C[Security]
