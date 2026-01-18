@@ -1,5 +1,9 @@
-
 # Well-Architected Terraform on Microsoft Azure
+
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Resource Manager, Azure Storage (state backend), Azure Key Vault, Azure DevOps, Azure Policy, Azure Monitor, Azure Virtual Networks
 
 ## Executive Summary
 
@@ -16,14 +20,19 @@ This whitepaper provides comprehensive guidance on implementing infrastructure a
 
 ## Table of Contents
 
-1. [Introduction](#1-introduction)
-2. [Well-Architected Framework Pillars](#2-well-architected-framework-pillars)
-3. [Terraform Architecture Patterns](#3-terraform-architecture-patterns)
-4. [State Management](#4-state-management)
-5. [Security Best Practices](#5-security-best-practices)
-6. [Module Design and Reusability](#6-module-design-and-reusability)
-7. [CI/CD Integration](#7-cicd-integration)
-8. [Cost Optimization](#8-cost-optimization)
+- [Executive Summary](#executive-summary)
+- [Introduction](#introduction)
+- [Well-Architected Framework Pillars](#well-architected-framework-pillars)
+- [Terraform Architecture Patterns](#terraform-architecture-patterns)
+- [State Management](#state-management)
+- [Security Best Practices](#security-best-practices)
+- [Module Design and Reusability](#module-design-and-reusability)
+- [CI/CD Integration](#cicd-integration)
+- [Cost Optimization](#cost-optimization)
+- [Performance Optimization](#performance-optimization)
+- [Disaster Recovery](#disaster-recovery)
+- [Testing Strategies](#testing-strategies)
+- [Conclusion](#conclusion)
 9. [Operational Excellence](#9-operational-excellence)
 10. [Disaster Recovery and Business Continuity](#10-disaster-recovery-and-business-continuity)
 11. [Conclusion](#11-conclusion)
@@ -48,7 +57,7 @@ Infrastructure as Code (IaC) has transformed how organizations deploy and manage
 
 The Azure Well-Architected Framework provides five pillars for cloud excellence:
 
-```mermaid 
+```mermaid  
 graph TD
     A[Well-Architected Framework] --> B[Reliability]
     A --> C[Security]

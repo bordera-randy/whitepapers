@@ -1,5 +1,9 @@
-
 # Azure Well-Architected Framework: A Comprehensive Guide for Container-Based Applications
+
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Kubernetes Service (AKS), Azure Container Apps, Azure Container Instances, Azure Monitor, Azure Policy, Azure Cost Management, Azure Key Vault, Azure Virtual Networks
 
 ## Executive Summary
 
@@ -17,18 +21,19 @@ This whitepaper provides actionable guidance, architecture diagrams, real-world 
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Azure Well-Architected Framework Overview](#framework-overview)
-3. [Container Services on Azure](#container-services)
-4. [Pillar 1: Reliability](#reliability)
-5. [Pillar 2: Security](#security)
-6. [Pillar 3: Cost Optimization](#cost-optimization)
-7. [Pillar 4: Operational Excellence](#operational-excellence)
-8. [Pillar 5: Performance Efficiency](#performance-efficiency)
-9. [Reference Architectures](#reference-architectures)
-10. [Azure Policy Recommendations](#azure-policy)
-11. [Real-World Examples](#examples)
-12. [Resources and Further Reading](#resources)
+- [Executive Summary](#executive-summary)
+- [Introduction](#introduction)
+- [Azure Well-Architected Framework Overview](#azure-well-architected-framework-overview)
+- [Container Services on Azure](#container-services-on-azure)
+- [Pillar 1: Reliability](#pillar-1-reliability)
+- [Pillar 2: Security](#pillar-2-security)
+- [Pillar 3: Cost Optimization](#pillar-3-cost-optimization)
+- [Pillar 4: Operational Excellence](#pillar-4-operational-excellence)
+- [Pillar 5: Performance Efficiency](#pillar-5-performance-efficiency)
+- [Reference Architectures](#reference-architectures)
+- [Azure Policy Recommendations](#azure-policy-recommendations)
+- [Real-World Examples](#real-world-examples)
+- [Resources and Further Reading](#resources-and-further-reading)
 
 ---
 

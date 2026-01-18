@@ -13,6 +13,23 @@ Azure's containerized Platform as a Service (PaaS) offerings—including Azure K
 
 This whitepaper demonstrates how organizations can transition from traditional VM-based architectures to containerized PaaS solutions, achieving 30-50% cost savings, 60% reduction in operational overhead, and 40% reduction in FedRAMP audit scope while enhancing security posture and deployment agility.
 
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Solution Overview](#solution-overview)
+- [Technical Architecture](#technical-architecture)
+- [Implementation Guide](#implementation-guide)
+- [Best Practices](#best-practices)
+- [Security Considerations](#security-considerations)
+- [Cost Optimization](#cost-optimization)
+- [Monitoring and Maintenance](#monitoring-and-maintenance)
+- [Conclusion](#conclusion)
+- [References](#references)
+- [Appendices](#appendices)
+
+## Introduction
 
 - Full operating system control  
 - Compatibility with legacy workloads  
