@@ -9,19 +9,21 @@
 This whitepaper provides an implementation-focused guide to designing Azure Kubernetes Service (AKS) cluster architecture and node pool strategies in Azure Commercial environments. It emphasizes security-by-default, workload isolation, scalability, and operational resilience using Terraform as the authoritative infrastructure-as-code mechanism. The guidance assumes experienced Azure engineers operating production-grade Kubernetes platforms.
 
 ## Table of Contents
-1. Scope and Assumptions  
-2. Architectural Design Principles  
-3. AKS Cluster Topology  
-4. Node Pool Design Strategies  
-5. Networking and Traffic Flow  
-6. Identity, Access, and Secrets  
-7. Security Hardening  
-8. Scaling, Availability, and Resiliency  
-9. Monitoring and Observability  
-10. Azure Policy and Guardrails  
-11. Terraform Implementation Considerations  
-12. Tradeoffs and Limitations  
-13. Conclusion  
+
+- [Executive Summary](#executive-summary)
+- [1. Scope and Assumptions](#1-scope-and-assumptions)
+- [2. Architectural Design Principles](#2-architectural-design-principles)
+- [3. AKS Cluster Topology](#3-aks-cluster-topology)
+- [4. Node Pool Design Strategies](#4-node-pool-design-strategies)
+- [5. Networking and Traffic Flow](#5-networking-and-traffic-flow)
+- [6. Identity, Access, and Secrets](#6-identity-access-and-secrets)
+- [7. Security Hardening](#7-security-hardening)
+- [8. Scaling, Availability, and Resiliency](#8-scaling-availability-and-resiliency)
+- [9. Monitoring and Observability](#9-monitoring-and-observability)
+- [10. Azure Policy and Guardrails](#10-azure-policy-and-guardrails)
+- [11. Terraform Implementation Considerations](#11-terraform-implementation-considerations)
+- [12. Tradeoffs and Limitations](#12-tradeoffs-and-limitations)
+- [13. Conclusion](#13-conclusion)  
 
 ## 1. Scope and Assumptions
 - Azure Commercial only  

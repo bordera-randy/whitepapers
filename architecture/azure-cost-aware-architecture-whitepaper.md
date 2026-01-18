@@ -3,8 +3,7 @@
 **Author:** Randy Bordeaux  
 **Date:** January 2026  
 **Version:** 1.0  
-**Azure Services:** Azure Cost Management, Azure Advisor, Azure Reservations, Azure Savings Plans, Azure Monitor, Azure Policy, Azure Resource Manager  
-**Azure Services:** Azure Resource Manager, Azure Monitor, Azure Cost Management, Azure Policy, Azure Advisor, Azure Storage, Azure Virtual Machines, Azure App Service, Azure Kubernetes Service
+**Azure Services:** Azure Cost Management, Azure Advisor, Azure Reservations, Azure Savings Plans, Azure Monitor, Azure Policy, Azure Resource Manager, Azure Storage, Azure Virtual Machines, Azure App Service, Azure Kubernetes Service
 
 ## Executive Summary
 

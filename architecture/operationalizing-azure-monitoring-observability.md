@@ -3,8 +3,7 @@
 **Author:** Randy Bordeaux  
 **Date:** January 2026  
 **Version:** 1.0  
-**Azure Services:** Azure Monitor, Log Analytics, Application Insights, Azure Managed Grafana, Azure Managed Prometheus, Azure Workbooks, Azure Data Explorer  
-**Azure Services:** Azure Monitor, Log Analytics, Application Insights, Azure Resource Graph, Azure Policy, Azure Storage, Azure Event Hub
+**Azure Services:** Azure Monitor, Log Analytics, Application Insights, Azure Managed Grafana, Azure Managed Prometheus, Azure Workbooks, Azure Data Explorer, Azure Resource Graph, Azure Policy, Azure Storage, Azure Event Hub
 
 ## Executive Summary
 
