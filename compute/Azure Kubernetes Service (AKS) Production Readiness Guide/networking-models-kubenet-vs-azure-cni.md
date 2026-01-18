@@ -1,5 +1,10 @@
 # Networking Models in Azure Kubernetes Service (kubenet vs Azure CNI)
 
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Kubernetes Service (AKS), Azure Virtual Networks, Azure CNI, Azure Load Balancer, Azure Firewall, Network Security Groups
+
 ## Executive Summary
 This whitepaper provides a detailed, implementation-focused comparison of Kubernetes networking models in Azure Kubernetes Service (AKS), specifically **kubenet** and **Azure CNI**. It evaluates architectural differences, security implications, scalability constraints, and operational tradeoffs, with Terraform as the authoritative infrastructure-as-code mechanism. The guidance is intended for experienced Azure and Kubernetes engineers designing production-grade AKS platforms in Azure Commercial environments.
 

@@ -1,5 +1,9 @@
-
 # Azure Well-Architected Framework: A Comprehensive Guide for Container-Based Applications
+
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Kubernetes Service (AKS), Azure Container Apps, Azure Container Instances, Azure Monitor, Azure Policy, Azure Cost Management, Azure Key Vault, Azure Virtual Networks
 
 ## Executive Summary
 

@@ -1,5 +1,9 @@
-
 # Well-Architected Terraform on Microsoft Azure
+
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Resource Manager, Azure Storage (state backend), Azure Key Vault, Azure DevOps, Azure Policy, Azure Monitor, Azure Virtual Networks
 
 ## Executive Summary
 

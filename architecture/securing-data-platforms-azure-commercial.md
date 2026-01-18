@@ -1,5 +1,10 @@
 # Securing Data Platforms in Azure Commercial
 
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Data Lake Storage Gen2, Azure Synapse Analytics, Azure Databricks, Azure SQL Database, Azure Key Vault, Azure Private Link, Azure Firewall, Microsoft Entra ID, Log Analytics
+
 ## Executive Summary
 This whitepaper provides an implementation-focused reference architecture for securing Azure-native data platforms in Azure Commercial environments. It addresses identity, network isolation, data protection, platform hardening, and auditability using Azure-native controls and Terraform-based infrastructure as code. The guidance assumes experienced Azure engineers operating production and regulated workloads and emphasizes defense-in-depth, least privilege, and policy-driven enforcement.
 

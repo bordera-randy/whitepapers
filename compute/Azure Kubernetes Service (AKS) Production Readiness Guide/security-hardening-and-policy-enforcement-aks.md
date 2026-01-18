@@ -1,5 +1,10 @@
 # Security Hardening and Policy Enforcement in Azure Kubernetes Service
 
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Kubernetes Service (AKS), Microsoft Entra ID, Azure Policy, Azure Key Vault, Azure Container Registry, Azure Defender for Containers, Azure Private Link
+
 ## Executive Summary
 This whitepaper provides an implementation-focused reference for security hardening and policy enforcement in Azure Kubernetes Service (AKS) within Azure Commercial environments. It covers cluster-level hardening, workload security controls, Azure Policy enforcement, and Terraform-based guardrails. The guidance is intended for experienced Azure and Kubernetes engineers operating production and regulated AKS platforms where preventive controls and auditable enforcement are mandatory.
 

@@ -1,5 +1,10 @@
 # Cluster Architecture and Node Pool Design (Azure Kubernetes Service)
 
+**Author:** Randy Bordeaux  
+**Date:** January 2026  
+**Version:** 1.0  
+**Azure Services:** Azure Kubernetes Service (AKS), Azure Virtual Machine Scale Sets, Azure Virtual Networks, Azure Monitor, Azure Container Registry, Azure Managed Identities
+
 ## Executive Summary
 This whitepaper provides an implementation-focused guide to designing Azure Kubernetes Service (AKS) cluster architecture and node pool strategies in Azure Commercial environments. It emphasizes security-by-default, workload isolation, scalability, and operational resilience using Terraform as the authoritative infrastructure-as-code mechanism. The guidance assumes experienced Azure engineers operating production-grade Kubernetes platforms.
 
