@@ -16,7 +16,6 @@ A comprehensive collection of enterprise-grade technical whitepapers covering Mi
     - [Security \& Compliance](#security--compliance)
     - [DevOps \& Monitoring](#devops--monitoring)
   - [Contributing](#contributing)
-  - [Whitepaper Standards](#whitepaper-standards)
   - [License](#license)
 
 ## About
@@ -105,50 +104,27 @@ whitepapers/
 
 ## Contributing
 
-We welcome contributions from the Azure community! To contribute:
+We welcome contributions from the Azure community! 
 
-1. **Review Standards**: Read our [Contributing Guidelines](CONTRIBUTING.md) for submission requirements
-2. **Follow Template**: Use the standardized [whitepaper template](templates/) for consistency
-3. **Technical Requirements**:
-   - Include Terraform infrastructure-as-code examples (mandatory)
-   - Provide Azure CLI commands for operational tasks
-   - Add Mermaid diagrams for architecture visualization
-   - Include KQL queries for monitoring and diagnostics
-   - Embed security best practices throughout (not as separate section)
-4. **Content Standards**:
-   - Target technical audiences (architects, engineers, DevOps)
-   - Focus on Azure Commercial cloud only
-   - Provide implementation-focused guidance with code examples
-   - Avoid marketing language; maintain technical depth
-5. **Submit Pull Request**: Include clear description and relevant metadata
+This repository accepts enterprise-grade technical whitepapers covering Azure services, architecture patterns, implementation guides, and best practices. All submissions must include production-ready Terraform code, Azure CLI commands, Mermaid diagrams, and KQL monitoring queries.
 
-## Whitepaper Standards
+**To contribute:**
+1. Fork the repository and create a feature branch
+2. Review the [**Contributing Guidelines**](CONTRIBUTING.md) for complete requirements
+3. Follow the standardized whitepaper template structure
+4. Test all code examples in a real Azure environment
+5. Submit a pull request with a detailed description
 
-All whitepapers follow a consistent structure:
-
-**Required Sections:**
-- **Metadata**: Author, date, version, Azure services covered
-- **Executive Summary**: 2-3 paragraph overview
-- **Table of Contents**: Markdown anchor links for navigation
-- **12 Core Sections**: Architecture, implementation, security, monitoring, cost optimization, etc.
-- **Infrastructure-as-Code**: Terraform examples with best practices
-- **Monitoring**: KQL queries for Azure Monitor/Log Analytics
-- **Operations**: Azure CLI commands for common tasks
-- **References**: Microsoft documentation and related resources
-- **Appendices**: Checklists, additional configurations, troubleshooting
-
-**Visual Standards:**
-- Mermaid diagrams for architecture and flow visualization
-- Code blocks with syntax highlighting
-- Tables for feature comparisons and configurations
-
-**Quality Checklist:**
-- ✅ All Terraform code tested and validated
-- ✅ Azure CLI commands verified against latest API versions
+**Key Requirements:**
+- ✅ Production-ready Terraform infrastructure-as-code (mandatory)
+- ✅ Azure CLI operational commands
+- ✅ Mermaid architecture diagrams
+- ✅ KQL monitoring and diagnostic queries
 - ✅ Security best practices embedded throughout
-- ✅ Monitoring and alerting guidance included
-- ✅ Cost optimization strategies provided
-- ✅ Disaster recovery and high availability addressed
+- ✅ Target technical audiences (architects, engineers, DevOps)
+- ✅ Azure Commercial cloud focus only
+
+📖 **[Read the complete Contributing Guide →](CONTRIBUTING.md)**
 
 ## License
 
