@@ -76,6 +76,13 @@ Best practices for securing CI/CD pipelines with Azure Key Vault integration, se
 
 ---
 
+#### [Security Topics and Controls for Azure DevOps Pipelines](./Security_Topics_and_Controls_Azure.md)
+**Author:** Randy Bordeaux | **Version:** 1.0 | **Date:** January 2026
+
+Consolidated security controls for Azure DevOps and GitHub Actions pipelines: identity hardening, secretless execution, policy as code, supply-chain protection, monitoring, and incident response playbooks.
+
+---
+
 #### [Policy as Code Integration in Azure Pipelines](./Policy_as_Code_Integration_Azure.md)
 **Author:** Randy Bordeaux | **Version:** 1.0 | **Date:** January 2026
 
