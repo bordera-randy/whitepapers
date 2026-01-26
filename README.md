@@ -57,20 +57,17 @@ whitepapers/
 
 | Document | Description | Key Topics |
 |----------|-------------|------------|
-| [AKS Production Readiness Guide](compute/01-aks-production-readiness.md) | Comprehensive AKS deployment and operations guide | Cluster architecture, networking (CNI/Kubenet), security, RBAC, monitoring, cost optimization |
-| [Azure Virtual Desktop Enterprise Deployment](compute/02-avd-enterprise-deployment.md) | AVD deployment patterns for enterprise environments | Host pools, FSLogix profiles, autoscaling, security, disaster recovery |
-| [Azure Batch for High-Performance Computing](compute/03-azure-batch-hpc.md) | HPC workload implementation with Azure Batch | Compute nodes, task scheduling, parallel processing, storage integration |
-| [Azure Virtual Machines Best Practices](compute/virtual-machines/azure-vm-best-practices.md) | VM sizing, availability, and optimization strategies | VM series selection, availability sets/zones, managed disks, backup |
+| [Azure Virtual Machines Best Practices](compute/azure-vm-best-practices.md) | VM sizing, availability, and optimization strategies | VM series selection, availability sets/zones, managed disks, backup |
 | [From Virtual Machines to Containerized PaaS in Azure](compute/From%20Virtual%20Machines%20to%20Containerized%20PaaS%20in%20Azure.md) | Migration pathways from IaaS to managed PaaS | Containers, AKS, App Service, migration |
+| [AKS: Cluster Architecture and Node Pool Design](compute/cluster-architecture-and-node-pool-design.md) | Baseline AKS topology for production | Node pools, zones, autoscaling |
+| [AKS: Networking Models (Kubenet vs Azure CNI)](compute/networking-models-kubenet-vs-azure-cni.md) | Choosing and operating AKS networking models | CNI, Kubenet, IP planning, routing |
+| [AKS: Identity and RBAC Integration](compute/identity-and-rbac-integration-aks.md) | Integrating AKS with Entra ID and RBAC | AAD integration, RBAC, pod identity |
+| [AKS: Security Hardening and Policy Enforcement](compute/security-hardening-and-policy-enforcement-aks.md) | Hardening clusters and enforcing guardrails | Policy, admission control, supply chain |
+| [AKS: Monitoring, Logging, and Observability](compute/monitoring-logging-and-observability-aks.md) | Telemetry patterns for AKS | Logs, metrics, tracing, alerts |
+| [AKS: Cost Optimization Strategies](compute/cost-optimization-strategies-aks.md) | Reducing AKS operational cost | Rightsizing, autoscale, spot, scheduling |
+| [Compute Collection Overview](compute/README.md) | Category overview and navigation | Index |
 
-**AKS Deep-Dive Series:**
-- [Cluster Architecture and Node Pool Design](compute/Azure%20Kubernetes%20Service%20(AKS)%20Production%20Readiness%20Guide/cluster-architecture-and-node-pool-design.md)
-- [Networking Models: Kubenet vs Azure CNI](compute/Azure%20Kubernetes%20Service%20(AKS)%20Production%20Readiness%20Guide/networking-models-kubenet-vs-azure-cni.md)
-- [Identity and RBAC Integration](compute/Azure%20Kubernetes%20Service%20(AKS)%20Production%20Readiness%20Guide/identity-and-rbac-integration-aks.md)
-- [Security Hardening and Policy Enforcement](compute/Azure%20Kubernetes%20Service%20(AKS)%20Production%20Readiness%20Guide/security-hardening-and-policy-enforcement-aks.md)
-- [Monitoring, Logging, and Observability](compute/Azure%20Kubernetes%20Service%20(AKS)%20Production%20Readiness%20Guide/monitoring-logging-and-observability-aks.md)
-- [Cost Optimization Strategies](compute/Azure%20Kubernetes%20Service%20(AKS)%20Production%20Readiness%20Guide/cost-optimization-strategies-aks.md)
-- [Compute Collection Overview](compute/README.md)
+📖 [**View complete Compute collection →**](compute/README.md)
 
 ### Storage Solutions
 
