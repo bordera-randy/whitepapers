@@ -1,0 +1,74 @@
+<svg width="1280" height="640" xmlns="http://www.w3.org/2000/svg">
+  <!-- Azure Blue Gradient Background -->
+  <defs>
+    <linearGradient id="azureGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0078D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00BCF2;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="darkSection" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#005A9E;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#005A9E;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Background -->
+  <rect width="1280" height="640" fill="url(#azureGradient)"/>
+  
+  <!-- Accent bars -->
+  <rect x="0" y="200" width="1280" height="10" fill="white" opacity="0.9"/>
+  <rect x="0" y="430" width="1280" height="10" fill="white" opacity="0.9"/>
+  
+  <!-- Darker content section -->
+  <rect x="0" y="220" width="1280" height="200" fill="url(#darkSection)"/>
+  
+  <!-- Title -->
+  <text x="640" y="120" font-size="84" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, Segoe UI, sans-serif">
+    📘 Azure Whitepapers
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="640" y="170" font-size="38" text-anchor="middle" fill="white" opacity="0.95" font-family="Arial, Segoe UI, sans-serif">
+    Enterprise-Grade Technical Documentation
+  </text>
+  
+  <!-- Feature Box 1 -->
+  <rect x="80" y="250" width="240" height="140" fill="rgba(255,255,255,0.15)" stroke="white" stroke-width="2" rx="8"/>
+  <text x="200" y="290" font-size="42" text-anchor="middle" fill="white">☁️</text>
+  <text x="200" y="335" font-size="24" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Architecture</text>
+  <text x="200" y="365" font-size="20" text-anchor="middle" fill="white" opacity="0.9" font-family="Arial, sans-serif">&amp; Design</text>
+  
+  <!-- Feature Box 2 -->
+  <rect x="360" y="250" width="240" height="140" fill="rgba(255,255,255,0.15)" stroke="white" stroke-width="2" rx="8"/>
+  <text x="480" y="290" font-size="42" text-anchor="middle" fill="white">🔒</text>
+  <text x="480" y="335" font-size="24" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Security</text>
+  <text x="480" y="365" font-size="20" text-anchor="middle" fill="white" opacity="0.9" font-family="Arial, sans-serif">&amp; Compliance</text>
+  
+  <!-- Feature Box 3 -->
+  <rect x="640" y="250" width="240" height="140" fill="rgba(255,255,255,0.15)" stroke="white" stroke-width="2" rx="8"/>
+  <text x="760" y="290" font-size="42" text-anchor="middle" fill="white">⚙️</text>
+  <text x="760" y="335" font-size="24" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">DevOps</text>
+  <text x="760" y="365" font-size="20" text-anchor="middle" fill="white" opacity="0.9" font-family="Arial, sans-serif">&amp; IaC</text>
+  
+  <!-- Feature Box 4 -->
+  <rect x="920" y="250" width="240" height="140" fill="rgba(255,255,255,0.15)" stroke="white" stroke-width="2" rx="8"/>
+  <text x="1040" y="290" font-size="42" text-anchor="middle" fill="white">📊</text>
+  <text x="1040" y="335" font-size="24" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">Compute</text>
+  <text x="1040" y="365" font-size="20" text-anchor="middle" fill="white" opacity="0.9" font-family="Arial, sans-serif">&amp; Storage</text>
+  
+  <!-- Bottom section highlights -->
+  <text x="640" y="490" font-size="28" font-weight="600" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+    25+ Production-Ready Technical Guides
+  </text>
+  
+  <!-- Feature list -->
+  <text x="640" y="550" font-size="24" text-anchor="middle" fill="white" opacity="0.95" font-family="Arial, sans-serif">
+    Terraform Code • Architecture Diagrams • KQL Queries • Best Practices
+  </text>
+  
+  <!-- Bottom badge -->
+  <rect x="520" y="580" width="240" height="40" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2" rx="20"/>
+  <text x="640" y="608" font-size="22" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+    ⭐ Open Source
+  </text>
+</svg>
